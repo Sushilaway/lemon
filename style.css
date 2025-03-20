@@ -338,6 +338,11 @@ section {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 
 .facilities {
     background-color: var(--white);
