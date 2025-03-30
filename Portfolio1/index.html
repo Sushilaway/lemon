@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushil Bastola - Design Portfolio</title>
+    <link rel="stylesheet" href="advanced-styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+
+    <!-- Navigation -->
+    <header class="sticky-nav">
+        <nav>
+            <div class="logo glitch-text" data-text="Sushil Bastola">Sushil Bastola</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="fancy-underline">Home</a></li>
+                <li><a href="#about" class="fancy-underline">About</a></li>
+                <li><a href="#projects" class="fancy-underline">Projects</a></li>
+                <li><a href="#skills" class="fancy-underline">Skills</a></li>
+                <li><a href="#contact" class="fancy-underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero parallax-section">
+        <div class="parallax-bg"></div>
+        <div class="hero-content">
+            <h1 class="glitch-text reveal-text" data-text="Sushil Bastola">Sushil Bastola</h1>
+            <div class="typed-container">
+                <span id="typed-output" class="typed-text"></span>
+                <span class="typed-cursor">|</span>
+            </div>
+            <p class="slide-in-text">UI/UX Designer | Technical Recruiter | Software Engineer</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary hover-lift">View Projects</a>
+                <a href="#contact" class="btn btn-secondary hover-lift">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2 class="glitch-text" data-text="My Projects">My Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card hover-lift">
+                <div class="project-image" style="background-image: url('/api/placeholder/400/300')"></div>
+                <div class="project-details">
+                    <h3>UI/UX Design Project</h3>
+                    <p>Innovative design solution for mobile application</p>
+                    <a href="#" class="btn btn-small">View Details</a>
+                </div>
+            </div>
+            <div class="project-card hover-lift">
+                <div class="project-image" style="background-image: url('/api/placeholder/400/300')"></div>
+                <div class="project-details">
+                    <h3>Technical Recruiting Platform</h3>
+                    <p>Streamlined talent acquisition interface</p>
+                    <a href="#" class="btn btn-small">View Details</a>
+                </div>
+            </div>
+            <div class="project-card hover-lift">
+                <div class="project-image" style="background-image: url('/api/placeholder/400/300')"></div>
+                <div class="project-details">
+                    <h3>Sustainable Farming App</h3>
+                    <p>Digital solution for agricultural management</p>
+                    <a href="#" class="btn btn-small">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2 class="glitch-text" data-text="My Skills">My Skills</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card hover-lift">
+                <h3>UI/UX Design</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" data-skill="90">
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card hover-lift">
+                <h3>Technical Recruiting</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" data-skill="85">
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card hover-lift">
+                <h3>Software Engineering</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" data-skill="80">
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2 class="glitch-text" data-text="Contact Me">Contact Me</h2>
+        </div>
+        <div class="contact-container">
+            <form class="contact-form hover-lift">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Email: bastolasushil58@gmail.com</p>
+                <p>LinkedIn: Sushil Bastola</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="#" class="social-icon">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sushil Bastola. All Rights Reserved.</p>
+    </footer>
+
+    <script src="advanced-interactions.js"></script>
+</body>
+</html>
